@@ -14,8 +14,7 @@
     </modules>
 
     <name>wechat-java-tools</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
+    <url>http://www.xinba.vip</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,6 +24,11 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.xinba.wechat</groupId>
+                <artifactId>wechat-java-common</artifactId>
+                <version>1.0.0</version>
+            </dependency>
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
