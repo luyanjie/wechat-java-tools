@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Weixin-java-tool-suite" verbose="1">
+  <test name="Bean_Test">
+    <classes>
+      <class name="com.xinba.wechat.bean.WxAccessTokenTest"/>
+      <class name="com.xinba.wechat.bean.WxErrorTest"/>
+      <class name="com.xinba.wechat.WxMenuTest"/>
+      <class name="com.xinba.wechat.crypto.WxCryptUtilTest"/>
+      <class name="com.xinba.wechat.api.WxMessageInMemoryDuplicateCheckerTest"/>
+      <class name="com.xinba.wechat.session.SessionTest"/>
+    </classes>
+  </test>
+</suite>
