@@ -1,4 +1,4 @@
-package com.xinba.wechat.session;
+package com.xinba.wechat.common.session;
 
 import org.junit.Assert;
 import org.junit.Test;

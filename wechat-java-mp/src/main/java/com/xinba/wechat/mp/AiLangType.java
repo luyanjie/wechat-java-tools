@@ -1,4 +1,4 @@
-package com.xinba.wechat;
+package com.xinba.wechat.mp;
 
 import lombok.Getter;
 

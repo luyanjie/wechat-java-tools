@@ -1,4 +1,4 @@
-package com.xinba.wechat.error;
+package com.xinba.wechat.common.error;
 
 import lombok.Getter;
 

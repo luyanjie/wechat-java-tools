@@ -1,4 +1,4 @@
-package com.xinba.wechat.bean.menu;
+package com.xinba.wechat.common.bean.menu;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import lombok.Data;

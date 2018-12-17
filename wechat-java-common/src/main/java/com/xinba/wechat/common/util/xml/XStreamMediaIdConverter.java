@@ -1,4 +1,4 @@
-package com.xinba.wechat.util.xml;
+package com.xinba.wechat.common.util.xml;
 
 /**
  * @author jokin

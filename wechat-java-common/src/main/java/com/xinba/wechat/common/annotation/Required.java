@@ -1,4 +1,4 @@
-package com.xinba.wechat.annotation;
+package com.xinba.wechat.common.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

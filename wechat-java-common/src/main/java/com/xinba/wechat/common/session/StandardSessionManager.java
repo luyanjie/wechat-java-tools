@@ -1,6 +1,6 @@
-package com.xinba.wechat.session;
+package com.xinba.wechat.common.session;
 
-import com.xinba.wechat.util.res.StringManager;
+import com.xinba.wechat.common.util.res.StringManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

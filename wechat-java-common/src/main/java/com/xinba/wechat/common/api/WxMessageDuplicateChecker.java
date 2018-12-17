@@ -1,4 +1,4 @@
-package com.xinba.wechat.api;
+package com.xinba.wechat.common.api;
 
 /**
  * @author jokin

@@ -1,4 +1,4 @@
-package com.xinba.wechat.util.xml;
+package com.xinba.wechat.common.util.xml;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider;

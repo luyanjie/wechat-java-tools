@@ -1,4 +1,4 @@
-package com.xinba.wechat.api;
+package com.xinba.wechat.common.api;
 
 import java.util.HashMap;
 import java.util.Map;

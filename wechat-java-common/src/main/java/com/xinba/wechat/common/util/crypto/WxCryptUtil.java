@@ -1,4 +1,4 @@
-package com.xinba.wechat.util.crypto;
+package com.xinba.wechat.common.util.crypto;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

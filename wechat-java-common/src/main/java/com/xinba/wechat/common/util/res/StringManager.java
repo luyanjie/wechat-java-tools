@@ -1,4 +1,4 @@
-package com.xinba.wechat.util.res;
+package com.xinba.wechat.common.util.res;
 
 import java.text.MessageFormat;
 import java.util.*;

@@ -1,4 +1,4 @@
-package com.xinba.wechat.util.crypto;
+package com.xinba.wechat.common.util.crypto;
 
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;

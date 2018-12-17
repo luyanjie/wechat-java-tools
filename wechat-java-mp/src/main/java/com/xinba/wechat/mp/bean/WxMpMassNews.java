@@ -1,4 +1,4 @@
-package com.xinba.wechat.common.bean;
+package com.xinba.wechat.mp.bean;
 
 import com.alibaba.fastjson.JSON;
 import lombok.Data;

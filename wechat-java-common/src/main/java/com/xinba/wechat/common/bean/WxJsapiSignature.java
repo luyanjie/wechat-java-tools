@@ -1,4 +1,4 @@
-package com.xinba.wechat.bean;
+package com.xinba.wechat.common.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

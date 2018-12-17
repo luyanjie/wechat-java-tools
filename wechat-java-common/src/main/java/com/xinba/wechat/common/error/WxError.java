@@ -1,7 +1,7 @@
-package com.xinba.wechat.error;
+package com.xinba.wechat.common.error;
 
 import com.alibaba.fastjson.JSON;
-import com.xinba.wechat.WxType;
+import com.xinba.wechat.common.WxType;
 import lombok.Builder;
 import lombok.Data;
 import org.apache.commons.lang3.StringUtils;

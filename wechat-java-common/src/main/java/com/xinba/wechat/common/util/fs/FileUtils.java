@@ -1,4 +1,4 @@
-package com.xinba.wechat.util.fs;
+package com.xinba.wechat.common.util.fs;
 
 import com.alibaba.fastjson.util.IOUtils;
 

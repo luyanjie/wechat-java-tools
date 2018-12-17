@@ -1,4 +1,4 @@
-package com.xinba.wechat.util.crypto;
+package com.xinba.wechat.common.util.crypto;
 
 import java.nio.charset.Charset;
 import java.util.Arrays;

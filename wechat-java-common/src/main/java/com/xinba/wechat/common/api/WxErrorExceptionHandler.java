@@ -1,6 +1,6 @@
-package com.xinba.wechat.api;
+package com.xinba.wechat.common.api;
 
-import com.xinba.wechat.error.WxErrorException;
+import com.xinba.wechat.common.error.WxErrorException;
 
 /**
  * @author jokin

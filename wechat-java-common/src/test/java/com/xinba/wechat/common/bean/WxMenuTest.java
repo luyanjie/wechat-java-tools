@@ -1,8 +1,8 @@
-package com.xinba.wechat.bean;
+package com.xinba.wechat.common.bean;
 
-import com.xinba.wechat.bean.menu.WxMenu;
-import com.xinba.wechat.bean.menu.WxMenuButton;
-import com.xinba.wechat.bean.menu.WxMenuRule;
+import com.xinba.wechat.common.bean.menu.WxMenu;
+import com.xinba.wechat.common.bean.menu.WxMenuButton;
+import com.xinba.wechat.common.bean.menu.WxMenuRule;
 import org.junit.Assert;
 import org.junit.Test;
 
