@@ -11,7 +11,7 @@
 
     <artifactId>wechat-java-common</artifactId>
     <description>微信开发Java SDK公共模块</description>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>wechat-java-common</name>
     <url>http://www.xinba.vip</url>
 
@@ -57,8 +57,33 @@
         </dependency>
 
         <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.thoughtworks.xstream</groupId>
             <artifactId>xstream</artifactId>
+        </dependency>
+
+        <!-- 由于jodd-http -->
+        <dependency>
+            <groupId>org.jodd</groupId>
+            <artifactId>jodd-http</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+        </dependency>
+
+        <!--http-->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpmime</artifactId>
         </dependency>
 
     </dependencies>

@@ -35,7 +35,7 @@ public class WxConstant {
     /**
      * 主动发送消息（客服消息）的消息类型
      * */
-    public static class CustomerMsgType
+    public static class KefuMsgType
     {
         /**
          * 文本消息.

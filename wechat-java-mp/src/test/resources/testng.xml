@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Weixin-java-tool-suite" verbose="1">
+  <test name="API_Test">
+    <classes>
+      <class name="com.xinba.wechat.mp.api.WxMpBusyRetryTest"/>
+      <class name="com.xinba.wechat.mp.api.WxMpBaseAPITest"/>
+      <class name="com.xinba.wechat.mp.api.impl.WxMpMassMessageServiceImplTest"/>
+      <class name="com.xinba.wechat.mp.api.impl.WxMpUserServiceImplTest"/>
+      <class name="com.xinba.wechat.mp.api.impl.WxMpQrcodeServiceImplTest"/>
+      <class name="com.xinba.wechat.mp.api.WxMpShortUrlAPITest"/>
+      <class name="com.xinba.wechat.mp.api.WxMpMessageRouterTest"/>
+      <class name="com.xinba.wechat.mp.api.WxMpJsAPITest"/>
+      <class name="com.xinba.wechat.mp.api.WxMpMiscAPITest"/>
+    </classes>
+  </test>
+
+  <test name="Bean_Test">
+    <classes>
+      <class name="com.xinba.wechat.mp.bean.kefu.WxMpKefuMessageTest"/>
+      <class name="com.xinba.wechat.mp.bean.message.WxMpXmlMessageTest"/>
+      <class name="com.xinba.wechat.mp.bean.message.WxMpXmlOutImageMessageTest"/>
+      <class name="com.xinba.wechat.mp.bean.message.WxMpXmlOutMusicMessageTest"/>
+      <class name="com.xinba.wechat.mp.bean.message.WxMpXmlOutNewsMessageTest"/>
+      <class name="com.xinba.wechat.mp.bean.message.WxMpXmlOutVideoMessageTest"/>
+      <class name="com.xinba.wechat.mp.bean.message.WxMpXmlOutVoiceMessageTest"/>
+      <class name="com.xinba.wechat.mp.bean.message.WxMpXmlOutTextMessageTest"/>
+    </classes>
+  </test>
+</suite>

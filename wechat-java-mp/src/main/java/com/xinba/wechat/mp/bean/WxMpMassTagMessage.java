@@ -49,7 +49,7 @@ public class WxMpMassTagMessage implements Serializable {
      */
     private String clientMsgId;
 
-    public String toJosn() {
+    public String toJson() {
         return JSON.toJSONString(this);
     }
 

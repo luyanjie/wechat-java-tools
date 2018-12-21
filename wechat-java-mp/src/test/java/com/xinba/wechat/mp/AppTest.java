@@ -1,4 +1,4 @@
-package com.xinba.wechat.common;
+package com.xinba.wechat.mp;
 
 import static org.junit.Assert.assertTrue;
 

@@ -14,6 +14,7 @@
     </modules>
 
     <name>wechat-java-tools</name>
+
     <url>http://www.xinba.vip</url>
 
     <properties>
@@ -27,7 +28,7 @@
             <dependency>
                 <groupId>com.xinba.wechat</groupId>
                 <artifactId>wechat-java-common</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.1</version>
             </dependency>
             <dependency>
                 <groupId>junit</groupId>
@@ -35,6 +36,20 @@
                 <version>4.12</version>
                 <scope>test</scope>
             </dependency>
+
+            <dependency>
+                <groupId>com.google.inject</groupId>
+                <artifactId>guice</artifactId>
+                <version>3.0</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>6.10</version>
+                <scope>test</scope>
+            </dependency>
+
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
@@ -73,9 +88,59 @@
             </dependency>
 
             <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.5</version>
+            </dependency>
+
+            <dependency>
                 <groupId>com.thoughtworks.xstream</groupId>
                 <artifactId>xstream</artifactId>
                 <version>1.4.10</version>
+            </dependency>
+
+            <!-- 由于jodd-http -->
+            <dependency>
+                <groupId>org.jodd</groupId>
+                <artifactId>jodd-http</artifactId>
+                <version>3.8.6</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>3.10.0</version>
+            </dependency>
+
+            <!--http-->
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>4.5.3</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpmime</artifactId>
+                <version>4.5.3</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-server</artifactId>
+                <version>9.3.24.v20180605</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-servlet</artifactId>
+                <version>9.3.24.v20180605</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!--redis client-->
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>2.9.0</version>
+                <scope>provided</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
